@@ -75,4 +75,4 @@ app.MapGet("/api/clients/{code}", async (string code, CrmDbContext db) =>
     return Results.Ok(newClient);
 });
 
-app.Run("http://localhost:5005");
+app.Run();
