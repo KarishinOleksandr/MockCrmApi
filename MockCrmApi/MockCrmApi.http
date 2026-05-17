@@ -1,0 +1,6 @@
+@MockCrmApi_HostAddress = http://localhost:5280
+
+GET {{MockCrmApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
